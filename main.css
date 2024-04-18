@@ -1,0 +1,228 @@
+* {
+	font-size: 0.95rem;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif, NospzGothicMoe, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+*>span {
+	font-size: inherit;
+}
+
+p> {
+	line-height: 1rem;
+}
+
+body {
+	background-color: #3388bb;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: none
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+.foot-logo {
+	background-image: url('./MyGO_logo.webp');
+	background-size: contain;
+	height: 50vh;
+	width: 100vw;
+	position: fixed;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	top: 0;
+}
+
+.main-container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+.main-post {
+	border-radius: 0.5rem;
+	box-shadow: 0.05rem 0.05rem 0.5rem #fffa;
+	position: static;
+	width: 80%;
+	margin: 1rem auto;
+	background-color: #fffc;
+	z-index: 2;
+	opacity: 0;
+	transition: all 1.5s ease-in;
+	padding: 1rem 2rem;
+	box-sizing: border-box;
+}
+
+.main-post:hover {
+	transition: all 500ms ease-in;
+	opacity: 1;
+}
+
+.foot-post {
+	position: fixed;
+	margin: auto;
+	width: 100vw;
+	height: 100vh;
+	background-image: url('./Garupa-MYGO.webp');
+	background-size: contain;
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+	bottom: 0;
+}
+
+.title {
+	font-size: 2rem;
+	font-weight: bolder;
+	color: #3388bb;
+}
+
+.subtitle {
+	position: relative;
+	padding: .2rem .2rem .2rem .6rem;
+	margin: .5rem 0;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	font-size: 1.2rem;
+	font-weight: bolder;
+}
+
+.subtitle>span {}
+
+.subtitle::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 0.25rem;
+	height: 100%;
+	background-color: #3388bb;
+	border-radius: 0.125rem;
+}
+
+.subsubtitle {
+	position: relative;
+	padding: .2rem .2rem .2rem .6rem;
+	margin: .5rem 0;
+	height: 1rem;
+	line-height: 1rem;
+	font-size: 1rem;
+	font-weight: bolder;
+}
+
+.subsubtitle>span {}
+
+.subsubtitle::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 0.2rem;
+	height: 100%;
+	background-color: #3388bb;
+	border-radius: 0.15rem;
+}
+
+.main-color {
+	color: #3388bb;
+}
+
+.rimg-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.rimg-content>div:first-child {
+	display: flex;
+	flex-direction: column;
+}
+
+.rimg-content>div:last-child {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+}
+
+.mygo_cv {
+	background-image: url(MyGO_CV.jpg);
+	background-size: contain;
+}
+
+.hori-post {
+	width: 100%;
+}
+
+.char-post {
+	background-color: #f0f0f0;
+	display: flex;
+	flex-direction: column;
+}
+
+.char-post>div:first-child {
+	background-color: #3388bb;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+}
+.char-post *:not(p){
+	border: #3388bb 1px solid;
+	box-sizing: border-box;
+}
+.char-post>div:last-child {
+	display: flex;
+	flex-direction: row;
+}
+
+.char-post>div:last-child>div:first-child {
+	width: 200px;
+	height: 20rem;
+	background-color: white;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.char-post>div:last-child>div:last-child {
+	font-size: 1rem;
+}
+
+.char-post>div:last-child {}
+
+.soyo {
+	background-image: url(300px-Gbp-soyo.webp);
+}
+
+.tomori {
+	background-image: url(300px-Gbp-tomori.webp);
+}
+
+.anon {
+	background-image: url(300px-Gbp-anon.webp);
+}
+
+.rana {
+	background-image: url(300px-Gbp-rana.webp);
+}
+
+.taki {
+	background-image: url(300px-Gbp-taki.webp);
+}
